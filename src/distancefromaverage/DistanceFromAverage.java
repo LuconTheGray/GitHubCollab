@@ -26,7 +26,7 @@ public class DistanceFromAverage {
         int x = 0, y = 0;
         
         System.out.println("Enter a numeric value or " + QUIT + " to quit : ");
-        
+        System.out.println("Enter my name");
         entry = input.nextDouble();
         while(entry != QUIT && x < numbers.length){
             numbers[x] = entry;
